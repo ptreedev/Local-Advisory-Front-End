@@ -29,7 +29,6 @@
 } */
 
 .dropdown-menu {
-    background: red;
     width: 200px;
     position: absolute;
     top: 80px;
@@ -38,13 +37,9 @@
   }
   
   .dropdown-menu li {
-    background-color: black;
+    color: rgb(56, 54, 54);
     cursor: pointer;
   }
-  
-  /* .dropdown-menu li:hover {
-    
-  } */
   
   .dropdown-menu.clicked {
     display: none;
@@ -60,7 +55,8 @@
   }
 
   .dropdown-link:hover {
-    color:red;
+    color:rgb(255, 0, 72);
+    background-color: rgb(8, 8, 8);
   }
 
   .dropdown-link:focus{
